@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(10 ,1fr );   
+    grid-template-rows:repeat(10 ,1fr );
+    grid-gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.carla{
+    grid-column: 3/6;
+    grid-row: 2/4; 
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+form h2{
+    display: inline-flex;
+    justify-content: center;
+    
+}
+button{
+    height: 50px;
+    width: 180px;
+    margin-top:20px;
+}
+button[class="decline"]{
+    color: red;
+    font-size: 20px;
+    border: red 1px solid;
+    border-radius: 5px;
+
+}
+button[class="approve"]{
+    color: green;
+    font-size: 20px;
+    border: green 1px solid;
+    border-radius: 5px;
+
+}
+header p{
+    color: rgb(141, 140, 140);
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+.imgc, .imgm{
+float: right;
+   
+}
+.info, .infm{
+    color: rgb(68, 67, 67);
+}
+
+.marijn{
+    grid-column: 6/9;
+    grid-row: 2/4;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 15px;
+}
+.infm p:last-child{
+    font-weight: bold;
+
+}
+
